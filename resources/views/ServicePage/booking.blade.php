@@ -33,21 +33,18 @@
                         </div>
                         <ul>
                             <li>
-                                <h6>Belt Lipectomy (Body Lift)</h6>
-                                <span>$14,630</span>
+                                <h6>Order Test (Hospitalwise)</h6>
+                                {{-- <span>1000BDT/-</span> --}}
                             </li>
                             <li>
-                                <h6>Brachioplasty (Arm Lift)</h6>
-                                <span>$7,750</span>
+                                <h6>Order Medical Checkup (General/Hospitalwise)</h6>
+                                {{-- <span>1000BDT/-</span> --}}
                             </li>
                             <li>
-                                <h6>Liposuction (Whole Body)</h6>
-                                <span>$3,550 – 8,500</span>
+                                <h6>Emergency Physiotherapy (According to need)</h6>
+                                {{-- <span>10000BDT/-</span> --}}
                             </li>
-                            <li>
-                                <h6>Thigh / Buttock Lift</h6>
-                                <span>$10,100</span>
-                            </li>
+
                         </ul>
                         <a href="#" class="primary-btn" style="background-color: rgb(43, 158, 43); border: none;color: white">Browse</a>
                     </div>
@@ -60,21 +57,18 @@
                         </div>
                         <ul>
                             <li>
-                                <h6>Belt Lipectomy (Body Lift)</h6>
-                                <span>$14,630</span>
+                                <h6>Donate Blood (Volunteers Team respective to locations)</h6>
+                                {{-- <span>10000BDT</span> --}}
                             </li>
                             <li>
-                                <h6>Brachioplasty (Arm Lift)</h6>
-                                <span>$7,750</span>
+                                <h6>Emergency Blood Availability (Goranization/Hospital)</h6>
+                                {{-- <span>1000BDT</span> --}}
                             </li>
                             <li>
-                                <h6>Liposuction (Whole Body)</h6>
-                                <span>$3,550 – 8,500</span>
+                                <h6>Donor Recruitment (Upto-date donor list)</h6>
+                                {{-- <span>100000</span> --}}
                             </li>
-                            <li>
-                                <h6>Thigh / Buttock Lift</h6>
-                                <span>$10,100</span>
-                            </li>
+
                         </ul>
                         <a href="#" class="primary-btn" style="background-color: rgb(43, 158, 43); border: none;color: white">Browse</a>
                     </div>
@@ -87,21 +81,18 @@
                         </div>
                         <ul>
                             <li>
-                                <h6>Belt Lipectomy (Body Lift)</h6>
-                                <span>$14,630</span>
+                                <h6>Donate Fund (Organization/Hospital)</h6>
+                                {{-- <span>1000000</span> --}}
                             </li>
                             <li>
-                                <h6>Brachioplasty (Arm Lift)</h6>
-                                <span>$7,750</span>
+                                <h6>Apply for Fund (Emergency Application)</h6>
+                                {{-- <span>100000</span> --}}
                             </li>
                             <li>
-                                <h6>Liposuction (Whole Body)</h6>
-                                <span>$3,550 – 8,500</span>
+                                <h6>Donate Equipments (For Hospitals only)</h6>
+                                {{-- <span>1000000</span> --}}
                             </li>
-                            <li>
-                                <h6>Thigh / Buttock Lift</h6>
-                                <span>$10,100</span>
-                            </li>
+
                         </ul>
                         <a href="#" class="primary-btn" style="background-color: rgb(43, 158, 43); border: none; color: white">Browse</a>
                     </div>
