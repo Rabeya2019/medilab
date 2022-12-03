@@ -39,7 +39,7 @@
                         labore et dolore magna aliqua.</p>
                         <ul>
                             <li><i class="fa fa-check-circle"></i> Routine and medical care</li>
-                            <li><i class="fa fa-check-circle"></i> Excellence in Healthcare every</li>
+                            <li><i class="fa fa-check-circle"></i> Excellence in Healthcare everyday </li>
                             <li><i class="fa fa-check-circle"></i> Building a healthy environment</li>
                         </ul>
                         <a href="#" class="primary-btn normal-btn">Contact us</a>
@@ -66,28 +66,28 @@
                     <div class="chooseus__item">
                         <img src="{{url('frontend/img/icons/ci-1.png')}}" alt="">
                         <h5>Safe Home Sample Collection</h5>
-                        <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
+                        <p>Authorized and experienced Assistance will be provided to collect sample from home.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="chooseus__item">
                         <img src="{{url('frontend/img/icons/ci-2.png')}}" alt="">
                         <h5>Offers And Affordable Prices</h5>
-                        <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
+                        <p>Budget filters for Tests and generically budget-friendly service. </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="chooseus__item">
                         <img src="{{url('frontend/img/icons/ci-3.png')}}" alt="">
-                        <h5>Get Digital Report Within A Day</h5>
-                        <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
+                        <h5>Get Digital Report Within 3 Days</h5>
+                        <p>Test repors will be provided through emails, messages and deliver hardcopy at your door-step <p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="chooseus__item">
                         <img src="{{url('frontend/img/icons/ci-4.png')}}" alt="">
                         <h5>Emergency care</h5>
-                        <p>Lorem ipsum amet, consectetur adipiscing elit, sed do eiusmod tempor cididunt facilisis.</p>
+                        <p>Any emergency needs/services can be accesed or aquired within the area.</p>
                     </div>
                 </div>
             </div>
