@@ -1654,12 +1654,19 @@ ol {
   Pricing
 -----------------------*/
 
-.pricing {
+.pricing  {
 	padding-bottom: 60px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+
 }
+
+
 
 .pricing__item {
 	text-align: center;
+    height: 520px;
 	background: #ffffff;
 	-webkit-box-shadow: 0px 5px 15px rgba(0, 61, 85, 0.1);
 	box-shadow: 0px 5px 15px rgba(0, 61, 85, 0.1);
@@ -1676,6 +1683,7 @@ ol {
 	box-shadow: 0px 5px 35px rgba(0, 61, 85, 0.15);
 	margin-top: -20px;
 	padding-bottom: 70px;
+    /* height: 100%; */
 }
 
 .pricing__item:hover .pricing__item__title {

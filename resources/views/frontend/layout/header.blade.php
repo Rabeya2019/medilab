@@ -85,7 +85,7 @@
             <div class="row"  >
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a style="color: Green; font-size: 20px;" href="./index.html"><img style="width: 70px;" src="{{url('frontend/img/LOGO-nbg.png')}}" alt="">MEDILAB</a>
+                        <a style="color: Green; font-size: 20px;" href="/"><img style="width: 70px;" src="{{url('frontend/img/LOGO-nbg.png')}}" alt="">MEDILAB</a>
                     </div>
                 </div>
                 <div class="col-lg-10" style=" padding-top:20px;">

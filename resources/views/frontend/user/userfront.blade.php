@@ -88,7 +88,7 @@
             <div class="row"  >
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a style="color: Green; font-size: 20px;" href="./index.html"><img style="width: 70px;" src="{{url('frontend/img/LOGO-nbg.png')}}" alt="">MEDILAB</a>
+                        <a style="color: Green; font-size: 20px;" href="/user"><img style="width: 70px;" src="{{url('frontend/img/LOGO-nbg.png')}}" alt="">MEDILAB</a>
                     </div>
                 </div>
                 <div class="col-lg-10" style=" padding-top:20px;">
@@ -96,8 +96,8 @@
                         <nav class="header__menu">
                             <ul>
                                 <!-- {{-- class="active" --}} -->
-                                <li ><a href="/">Home</a></li>
-                                <li><a href="/about">About</a></li>
+                                <li ><a href="/user">Home</a></li>
+                                <li><a href="/userabout">About</a></li>
                                 <li><a href="/userservice">Services</a></li>
                                 <!-- {{-- <li><a href="#">Pages</a>
                                     <ul class="dropdown">
@@ -108,7 +108,7 @@
                                 </li> --}} -->
 
                                 <!-- <i class="fas fa-angle-down drop-icon"></i> -->
-                                <li><a href="#">Profile</a>
+                                <li><a href="#">Profile<i class="fas fa-angle-down drop-icon"></i></a>
                                     <ul class="dropdown">
                                         <li><a href="./pricing.htm-l">My profile</a></li>
                                         <li><a href="./doctor.htm-l">My Order History</a></li>
@@ -119,9 +119,39 @@
                                 </li>
                                 <!-- <i class="fas fa-angle-down drop-icon"></i>  -->
 
-                                <!-- NOTIFICATION ICON -->
+                                <!-- NOTIFICATION ICON WITH MODAL-->
+                                <a href="" data-toggle="modal" data-target="#exampleModalLong"><i class="fa-solid fa-bell"></i></a>
 
-                                <!-- <i class="fa-solid fa-bell"></i> -->
+
+
+
+                                <!-- Button trigger modal -->
+                                <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">NOTIFICATIONS</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="text-align: left">
+          ..HERE WILL BE A NOTIFICATION TABLE.
+          <hr>
+          <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+          <hr>
+          <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
                                 <!-- CART ICON -->
 

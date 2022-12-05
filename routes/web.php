@@ -17,6 +17,7 @@ use App\Http\Controllers\Frontend\PricingController;
 use App\Http\Controllers\AdminController\RegisterController;
 use App\Http\Controllers\AdminController\AdminController;
 use App\Http\Controllers\Frontend\UserServiceController;
+use App\Http\Controllers\Frontend\UserAboutController;
 
 Route::get('/', [HomeController::class,'index']);
 Route::get('/about', [AboutController::class,'about']);
@@ -24,13 +25,14 @@ Route::get('/roles',[RegisterController::class,'registered']);
 Route::get('/login', [LoginController::class,'login']);
 Route::get('/signup', [SignupController::class,'signup']);
 Route::get('/role-edit/{id}',[RegisterController::class,'Edited_Roles']);
-
 Route::get('/admin',[AdminController::class,'admin_page']);
 
 
 Route::get('/user', [UserController::class,'user']);
 Route::get('/service', [ServiceController::class,'service_page']);
 Route::get('/userservice', [UserServiceController::class,'UserService_page']);
+Route::get('/userabout', [UserAboutController::class,'userabout']);
+
 
 
 

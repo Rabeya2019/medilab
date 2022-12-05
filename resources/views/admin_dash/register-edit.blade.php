@@ -28,16 +28,16 @@
                                     <div class="form-group">
                                     <label>Name</label>
                                     <input style="font-size:13px;" type="text" name="username" value="{{$users->username}}" class="form-control" readonly>
-                                    </div> 
+                                    </div>
                                     <div class="form-group">
                                     <label>Role</label>
                                     <select name="usertype" class="form-control" id="">
                                         <option style="font-size:13px;" value="admin">Admin</option>
                                         <option style="font-size:13px;" value="customer">Customer</option>
                                     </select>
-                                    </div> 
-                                    <button type="submit" class="btn btn-success">Update</button>  
-                                    <a href="/roles" class="btn btn-danger">Cancel</a>   
+                                    </div>
+                                    <button type="submit" class="btn btn-success">Update</button>
+                                    <a href="/roles" class="btn btn-danger">Cancel</a>
                                     </form>
                             </div>
                            </div>

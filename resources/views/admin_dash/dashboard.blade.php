@@ -1,5 +1,4 @@
 @extends ('AdminPage.admin')
-
 @section('title')
     DashBoard MEDLAB
 @endsection

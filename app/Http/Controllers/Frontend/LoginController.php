@@ -19,15 +19,15 @@ class LoginController extends Controller
         $email = $request->input('email');
         $password = $request->input('password');
 
-                                            // LOG IN 
-                                            
+                                            // LOG IN
+
         if(DB::table('user')
         ->where('email',$email)
         ->exists()){
             $EncryptedPass = DB::table('user')->where('email',$email)->value('password');
             $LoggedInUser  = DB::table('user')->where('email',$email)->get();
             // $DecryptPass =decrypt($EncryptedPass);
-            
+
             // ROLE ADD
              if(password_verify($password,$EncryptedPass)){
                     // return view('frontend.index');
@@ -39,14 +39,14 @@ class LoginController extends Controller
                    elseif($role == "customer"){
                         return view('frontend.user');
                    }
-                    
+
              }
              else{
-                return back()->with('LogInFailed','Invalid email or password'); 
+                return back()->with('LogInFailed','Invalid email or password');
             }
-        }  
-        else{
-            return back()->with('LogInFailed','Invalid email or password'); 
         }
-    }      
+        else{
+            return back()->with('LogInFailed','Invalid email or password');
+        }
+    }
     }

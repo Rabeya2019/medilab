@@ -1,5 +1,4 @@
 @extends ('AdminPage.admin')
-
 @section('title')
     Registered Roles
 @endsection
@@ -12,7 +11,7 @@
             <div class="card">
               <div class="card-header">
                 <h4 class="card-title"> Registered Roles</h4>
-                
+
                 @if(Session::get('delete_success'))
                                 <div class="alert alert-success">
                                         {{ Session::get('delete_success')}}

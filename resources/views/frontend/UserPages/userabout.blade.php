@@ -1,4 +1,4 @@
-@extends('frontend.layout.main')
+@extends('frontend.user.usermain')
 @section('main-container')
 
 
@@ -10,7 +10,7 @@
                     <div class="breadcrumb__text">
                         <h2 style="color: rgb(44, 51, 44);">About Us</h2>
                         <div class="breadcrumb__links">
-                            <a href=".">Home</a>
+                            <a href="/">Home</a>
                             <span style="color: rgb(48, 162, 48) ;">About</span>
                         </div>
                     </div>
